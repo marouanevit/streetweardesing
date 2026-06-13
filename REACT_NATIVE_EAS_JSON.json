@@ -1,0 +1,10 @@
+{
+  "build": {
+    "android": [
+      {
+        "name": "production",
+        "workflow": "generic"
+      }
+    ]
+  }
+}

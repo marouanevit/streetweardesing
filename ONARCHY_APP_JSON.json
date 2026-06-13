@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ONARCHY",
+    "slug": "onarchy-design-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.onarchy.design"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.onarchy.design",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "onarchy-design"
+      },
+      "supabaseUrl": "https://vzmfxuogwqjqepzhxqzn.supabase.co",
+      "supabaseAnonKey": "sb_publishable_WuWUAJIUvsMJcR9PPuK2UA_GMr7iZDs"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
